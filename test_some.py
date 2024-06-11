@@ -1,5 +1,5 @@
-s = 'Lorem ipsum dolor sit amet,'
+s = '0+11x'
 
-s = s.replace(' ', '  ', 1)
+s = s.replace('x', '*2')
 
-print(s)
+print(int(s))

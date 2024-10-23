@@ -1,16 +1,3 @@
-'''
-
-Straight-flush
-Four-of-a-kind
-Full house
-Flush
-Straight
-Three-of-a-kind
-Two pair
-Pair
-Nothing.
-
-'''
 def values_check(cards):
     card_values = [card[:-1] for card in cards]
     values_count_dict = {value: card_values.count(value) for value in ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'] if value in card_values}
